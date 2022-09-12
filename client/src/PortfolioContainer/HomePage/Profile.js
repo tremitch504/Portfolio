@@ -53,8 +53,24 @@ return (
                        ]}
                        />
                     </h1>
+                    <span className='role-line-profile'>
+                    Full layout of front and back end applications
+                    </span> 
                 </span>
             </div>
+                <div className='options'>
+                   
+                   <button className='btn primary-btn'>
+                    {""}
+                    Hire Me{ " "}
+                   </button>
+
+                   <a href='TrevonResume.pdf' download='Trevon Mitchell Resume.pdf'> 
+                   <button className='btn highlighted-btn'>
+                    Get Resume
+                   </button>
+                   </a>
+                </div>
             </div>
         </div>
     </div>
