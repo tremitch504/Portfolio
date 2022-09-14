@@ -61,7 +61,7 @@ return (
                     Full layout of front and back end applications
                     </span> 
                 </span>
-            </div>
+            </div> 
                 <div className='options'>
                     
                    <button className='btn primary-btn'>
