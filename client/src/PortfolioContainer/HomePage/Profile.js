@@ -1,6 +1,6 @@
 import React from 'react';
 import Typical from 'react-typical';
-
+import "./Profile.css";
 const Profile = () => {
    
 //info = details
@@ -9,27 +9,31 @@ return (
         <div className='parent-profile'>
             <div className='info-profile'>
                 <div className='colz'>
+                    <div className='colz-icon'>
                     <a href='https://github.com/tremitch504'>
                         <span className='bi bi-github'></span>
                     </a>
                     <a href='https://www.linkedin.com/in/tre-mitch'>
                     <i className="bi bi-linkedin"></i>
                     </a>
-                    <a href='#'>
+                    
+                    {/* <a href='#'>
                         <i className='fa fa-google-plus-square'></i>
                     </a>
                     <a href='#'>
                         <i className='fa fa-twitter'></i>
-                    </a>
+                    </a> */}
                     {/* <a href='#'>
                         <i className='gitHub-square'></i>
                     </a> */}
+                  
+                    </div>
                 </div>
             
             <div className='info-profile-name'>
                 <span className='primary-text'>
                     {" "}
-                    Hello, I'm <span className='highLight-text'>Tre'von</span>
+                    Hello, I'm <span className='highlight-text'>Tre'von</span>
                 </span>
             </div>
             <div className='profile-info-role'>
@@ -71,6 +75,11 @@ return (
                    </button>
                    </a>
                 </div>
+            </div>
+            <div className='profile-picture'>
+             <div className='profile-picture-background'>
+               
+             </div>
             </div>
         </div>
     </div>
