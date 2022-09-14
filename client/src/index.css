@@ -108,7 +108,7 @@ body ::-webkit-scrollbar-thumb {
 
 /* Added a hover feature for primary button, added a color for border when its hovered over */
 .primary-btn:hover {
-  color: aliceblue;
+  color: aliceblue; 
   border: 2px solid #ff5823;
   background-color: #1f2235;
 }

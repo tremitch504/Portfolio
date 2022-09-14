@@ -73,7 +73,7 @@ return (
                    <button className='btn highlighted-btn'>
                     Get Resume
                    </button> 
-                   </a>
+                   </a> 
                 </div>
             </div>
             <div className='profile-picture'>
