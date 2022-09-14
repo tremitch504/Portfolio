@@ -63,7 +63,7 @@ return (
                 </span>
             </div>
                 <div className='options'>
-                   
+                    
                    <button className='btn primary-btn'>
                     {""}
                     Hire Me{ " "}
@@ -72,7 +72,7 @@ return (
                    <a href='TrevonResume.pdf' download='Trevon Mitchell Resume.pdf'> 
                    <button className='btn highlighted-btn'>
                     Get Resume
-                   </button>
+                   </button> 
                    </a>
                 </div>
             </div>

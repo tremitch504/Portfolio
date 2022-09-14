@@ -113,7 +113,7 @@ body ::-webkit-scrollbar-thumb {
   background-color: #1f2235;
 }
 
-.highlighted-btn {
+.highlighted-btn { 
   color: var(--white);
 
   font-size: 12px;
