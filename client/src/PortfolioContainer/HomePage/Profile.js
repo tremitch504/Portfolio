@@ -15,7 +15,7 @@ return (
                     </a>
                     <a href='https://www.linkedin.com/in/tre-mitch'>
                     <i className="bi bi-linkedin"></i>
-                    </a>
+                    </a> 
                     
                     {/* <a href='#'>
                         <i className='fa fa-google-plus-square'></i>
