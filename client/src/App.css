@@ -16,5 +16,16 @@
   --toast-error: #e44f4ffa;
   --toast-shadow:  #9c9c9ce3;
   --toast-success: #0CBFAE;
-  --loader-color: #0CBFAE
+  --loader-color: #0CBFAE;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --color-primary: #4db5ff;
+--color-bg: #1f1f38;
+--color-white: #fff;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+
+  --transition: all 400ms ease;
 }
+
