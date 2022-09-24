@@ -34,9 +34,9 @@ const AboutMe = () => {
                 <small> 3 Projects</small>
                 </article>
                </div>
-
+                            
                <p>This is where I will be talking about myself to the users</p>
-            
+               
             <a href="#contact" className="btn btn-primary">Lets Talk</a>
             </div>
            </div>

@@ -65,6 +65,22 @@
     cursor: default;
 }
 
+.aboutme-card h5{
+    font-size: 0.95rem;
+}
+
+.aboutme-card small {
+  font-size: 0.7rem;
+  /* color: var(--white);; */
+}
+
+.aboutme-cards-container p {
+  margin: 2rem 0 2.6rem;
+  color: var(--white);
+}
+
+
+
 
 
 .container {
