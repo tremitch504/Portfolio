@@ -9,7 +9,7 @@ const ContactMe = () => {
       <h2>Contact Me</h2>
 
       <div className="contact-container">
-        <div className="contact-options">
+        <div className="contact-options"> 
 
             <article className="contact-option">
             <i class="bi bi-envelope"></i>
