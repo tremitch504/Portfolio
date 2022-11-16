@@ -23,7 +23,7 @@ const ContactMe = () => {
                 <a href="https://twitter.com/Bruce77001275" target='_blank' rel="noreferrer">Send a message</a>
             </article>
             <article className="contact-option">
-            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-linkedin"></i> 
                 <h4>LinkedIn</h4>
                 <h5 className="email-header">Tre'von Mitchell</h5>
                 <a href="https://www.linkedin.com/in/tre-mitch/" target='_blank' rel="noreferrer">Send a message</a>
