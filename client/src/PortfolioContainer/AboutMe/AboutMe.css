@@ -58,8 +58,8 @@
 }
 
 .aboutme-card:hover{
-    color: blue;
-    background-color: cornsilk;
+    color: white;
+    background-color: #CFD2CF;
     margin: 0 0 0 28px;
     /* border-color: var(--color-primary-variant); */
     cursor: default;
