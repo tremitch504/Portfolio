@@ -1,8 +1,26 @@
 import React from "react";
 import './ContactMe.css'
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 // the h5 are being acted as the same
 const ContactMe = () => {
+ 
+    const form = useRef();
 
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_ctwzxzg', 'template_l9uw0ah', form.current, '9xT1RirKirNVaao-9')
+          .then((result) => { 
+              console.log(result.text); 
+          }, (error) => {
+              console.log(error.text); 
+          });
+
+        e.target.reset();
+      };
+    
     return (
         <div className="contact">
       <h5 className="contact-header">Get In Touch</h5>
@@ -30,7 +48,7 @@ const ContactMe = () => {
             </article>
          </div>
             {/* {"End of the options"} */}
-            <form action="">
+            <form ref={form} onSubmit={sendEmail}>
               <input type="text" name='name' placeholder="Your Full Name" required />
               <input type="email" name='email' placeholder="Your Email" required />
                <textarea name="message" rows="7" placeholder="Your Message" required></textarea>

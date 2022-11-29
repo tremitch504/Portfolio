@@ -1,5 +1,5 @@
 import React from 'react';
-import Typical from 'react-typical';
+//import Typical from 'react-typical';
 import "./Profile.css";
 const Profile = () => {
    
@@ -41,7 +41,8 @@ return (
                     {" "}
                     <h1>
                        {" "}
-                       <Typical 
+                       Software Developer 🌐
+                       {/* <Typical 
                        loop={Infinity}
                        steps={[
                         "Full Stack Developer 💻",
@@ -55,7 +56,7 @@ return (
                         "Software Engineer Dev",
                         1000,
                        ]}
-                       />
+                       /> */}
                     </h1>
                     <span className='role-line-profile'>
                     Full layout of front and back end applications
