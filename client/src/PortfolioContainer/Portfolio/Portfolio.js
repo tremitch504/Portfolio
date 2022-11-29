@@ -59,7 +59,7 @@ const Portfolio = () => {
 
 
     return (
-        <div className="portfolio">
+        <div className="portfolio" id='portfolio'>
         <h5 className="port-header">My Work</h5>
         <h2>Portfolio</h2>
 

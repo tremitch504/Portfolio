@@ -5,7 +5,7 @@ const Profile = () => {
    
 //info = details
 return (
-    <div className='container-profile'>
+    <div className='container-profile' id='profile'>
         <div className='parent-profile'>
             <div className='info-profile'>
                 <div className='colz'>

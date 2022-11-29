@@ -7,11 +7,12 @@ import Skills from "../Skills/Skills";
 import Portfolio from "../Portfolio/Portfolio";
 import ContactMe from "../ContactMe/Contact";
 import Footer from "../Footer/Footer";
-
+import Nav from "../Nav/Nav";
 const Home = () => {
 
     return (
         <div className="container-home">
+            <Nav />
             <Profile />
             <FooterImage />
             <AboutMe />
