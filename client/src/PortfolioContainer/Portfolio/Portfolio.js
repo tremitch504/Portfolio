@@ -17,16 +17,16 @@ const portfolioData = [
     {
      id: 2,
      image: pic1,
-     title: 'Krewsic',
-     github: 'https://github.com/The-Headliners/Krewesic.git',
-     demo: 'https://github.com/The-Headliners/Krewesic.git',
+     title: 'Bike Around and Find Out',
+     github: 'https://github.com/AlTreJoe/OscarScrumLords',
+     demo: 'https://github.com/AlTreJoe/OscarScrumLords',
     },
     {
      id: 3,
      image: pic1,
-     title: 'Krewsic',
-     github: 'https://github.com/The-Headliners/Krewesic.git',
-     demo: 'https://github.com/The-Headliners/Krewesic.git',
+     title: 'PokerApp',
+     github: 'https://github.com/tremitch504/poker-app.git',
+     demo: 'https://github.com/tremitch504/poker-app.git',
     },
     {
      id: 4,
