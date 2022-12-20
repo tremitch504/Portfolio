@@ -1,8 +1,9 @@
 import React from "react";
 import './Portfolio.css';
-import pic1 from '../../assets/Home/HappyHalloDribbble.webp'
-//import pic2 from '../../assets/Home/HalloweenDribble.webp'
-
+// import pic1 from '../../assets/Home/HappyHalloDribbble.webp'
+import pic1 from '../../assets/Home/KrewesicScreenShot.jpg'
+import pic2 from '../../assets/Home/BikeAroundScreenshot.jpg'
+import pic3 from '../../assets/Home/PokerAppScreenshot.jpg'
 
 
 
@@ -16,39 +17,39 @@ const portfolioData = [
     },
     {
      id: 2,
-     image: pic1,
+     image: pic2,
      title: 'Bike Around and Find Out',
      github: 'https://github.com/AlTreJoe/OscarScrumLords',
      demo: 'https://github.com/AlTreJoe/OscarScrumLords',
     },
     {
      id: 3,
-     image: pic1,
+     image: pic3,
      title: 'PokerApp',
      github: 'https://github.com/tremitch504/poker-app.git',
      demo: 'https://github.com/tremitch504/poker-app.git',
     },
-    {
-     id: 4,
-     image: pic1,
-     title: 'Krewsic',
-     github: 'https://github.com/The-Headliners/Krewesic.git',
-     demo: 'https://github.com/The-Headliners/Krewesic.git',
-    },
-    {
-     id: 5,
-     image: pic1,
-     title: 'Krewsic',
-     github: 'https://github.com/The-Headliners/Krewesic.git',
-     demo: 'https://github.com/The-Headliners/Krewesic.git',
-    },
-    {
-     id: 6,
-     image: pic1,
-     title: 'Krewsic',
-     github: 'https://github.com/The-Headliners/Krewesic.git',
-     demo: 'https://github.com/The-Headliners/Krewesic.git',
-    },
+    // {
+    //  id: 4,
+    //  image: pic1,
+    //  title: 'Krewsic',
+    //  github: 'https://github.com/The-Headliners/Krewesic.git',
+    //  demo: 'https://github.com/The-Headliners/Krewesic.git',
+    // },
+    // {
+    //  id: 5,
+    //  image: pic1,
+    //  title: 'Krewsic',
+    //  github: 'https://github.com/The-Headliners/Krewesic.git',
+    //  demo: 'https://github.com/The-Headliners/Krewesic.git',
+    // },
+    // {
+    //  id: 6,
+    //  image: pic1,
+    //  title: 'Krewsic',
+    //  github: 'https://github.com/The-Headliners/Krewesic.git',
+    //  demo: 'https://github.com/The-Headliners/Krewesic.git',
+    // },
 
 
 
