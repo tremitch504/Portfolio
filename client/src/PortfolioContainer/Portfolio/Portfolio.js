@@ -65,7 +65,7 @@ const Portfolio = () => {
         <h2>Portfolio</h2>
 
 <div className="portfolio-container">
- 
+  
 {
     portfolioData.map(({id, image, title, github, demo}) =>{
         return (
