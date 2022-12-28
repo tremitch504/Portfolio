@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0ac532b6.css",
+    "main.js": "/portfolio/static/js/main.23aa6296.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/portfolio/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/TrevonProfilePicture.jpg": "/portfolio/static/media/TrevonProfilePicture.9e120a8c2050162a5ae5.jpg",
+    "static/media/PokerAppScreenshot.jpg": "/portfolio/static/media/PokerAppScreenshot.11aa4ef033688ae39fcf.jpg",
+    "static/media/BikeAroundScreenshot.jpg": "/portfolio/static/media/BikeAroundScreenshot.2356dfbe4975d7a6772c.jpg",
+    "static/media/KrewesicScreenShot.jpg": "/portfolio/static/media/KrewesicScreenShot.cf5a32fc53b1add798fa.jpg",
+    "static/media/TrevonAboutMe.JPG": "/portfolio/static/media/TrevonAboutMe.69cf018078d9c68c71f7.JPG",
+    "static/media/Poppins-Thin.ttf": "/portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/portfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/portfolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/portfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "index.html": "/portfolio/index.html",
+    "main.0ac532b6.css.map": "/portfolio/static/css/main.0ac532b6.css.map",
+    "main.23aa6296.js.map": "/portfolio/static/js/main.23aa6296.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/portfolio/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ac532b6.css",
+    "static/js/main.23aa6296.js"
+  ]
+}
