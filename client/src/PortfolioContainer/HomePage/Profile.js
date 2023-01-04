@@ -44,7 +44,7 @@ return (
                        Software Developer 💻
                        {/* <Typical 
                        loop={Infinity}
-                       steps={[
+                       steps={[ 
                         "Full Stack Developer 💻",
                         1000,
                         "MERN Stack Dev 🖥",
