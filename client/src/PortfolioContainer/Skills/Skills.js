@@ -44,7 +44,7 @@ const Skills = () => {
                     <article className="details">
                     <i class="bi bi-check"></i>
                     <div>
-                    <h4>HTML</h4>
+                    <h4>Material-UI</h4>
                     <small className="details-text">Experienced</small>
                     </div>
                     </article>
@@ -75,7 +75,22 @@ const Skills = () => {
                     <small className="details-text">Experienced</small>
                     </div>
                     </article>
-                   
+                    <article className="details">
+                    <i class="bi bi-check"></i>
+                    <div>
+                    <h4>Java</h4>
+                    <small className="details-text">Experienced</small>
+                    </div>
+                    </article>
+                    <article className="details">
+                    <i class="bi bi-check"></i>
+                    <div>
+                    <h4>PostgreSQL</h4>
+                    <small className="details-text">Experienced</small>
+                    </div>
+                    </article>
+
+
                 </div>
                </div>
 

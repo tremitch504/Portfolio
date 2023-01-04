@@ -1,6 +1,5 @@
 import React from "react";
 import './Portfolio.css';
-// import pic1 from '../../assets/Home/HappyHalloDribbble.webp'
 import pic1 from '../../assets/Home/KrewesicScreenShot.jpg'
 import pic2 from '../../assets/Home/BikeAroundScreenshot.jpg'
 import pic3 from '../../assets/Home/PokerAppScreenshot.jpg'
@@ -25,34 +24,10 @@ const portfolioData = [
     {
      id: 3,
      image: pic3,
-     title: 'PokerApp',
+     title: 'Big Easy Casino',
      github: 'https://github.com/tremitch504/poker-app.git',
      demo: 'https://github.com/tremitch504/poker-app.git',
     },
-    // {
-    //  id: 4,
-    //  image: pic1,
-    //  title: 'Krewsic',
-    //  github: 'https://github.com/The-Headliners/Krewesic.git',
-    //  demo: 'https://github.com/The-Headliners/Krewesic.git',
-    // },
-    // {
-    //  id: 5,
-    //  image: pic1,
-    //  title: 'Krewsic',
-    //  github: 'https://github.com/The-Headliners/Krewesic.git',
-    //  demo: 'https://github.com/The-Headliners/Krewesic.git',
-    // },
-    // {
-    //  id: 6,
-    //  image: pic1,
-    //  title: 'Krewsic',
-    //  github: 'https://github.com/The-Headliners/Krewesic.git',
-    //  demo: 'https://github.com/The-Headliners/Krewesic.git',
-    // },
-
-
-
 ]
 
 
