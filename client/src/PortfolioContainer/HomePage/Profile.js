@@ -41,7 +41,7 @@ return (
                     {" "}
                     <h1>
                        {" "}
-                       Software Developer 🌐
+                       Software Developer 💻
                        {/* <Typical 
                        loop={Infinity}
                        steps={[
