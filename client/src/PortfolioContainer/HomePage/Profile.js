@@ -70,7 +70,7 @@ return (
                     Hire Me{ " "}
                    </button>
 
-                   <a href='TrevonResume.pdf' download='Trevon Mitchell Resume.pdf'> 
+                   <a href='latest 2 Trevon Resume.pdf' download='Trevon Mitchell Resume.pdf'> 
                    <button className='btn highlighted-btn'>
                     Get Resume
                    </button> 
