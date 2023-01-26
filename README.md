@@ -16,3 +16,5 @@ In order to have EmailJS installed I had to remove 'react-typical'. It seems lik
 
 We added the homepage name in our package.json
 ran the build srcipt after that, so we can deploy this.
+
+Used Cloudflare for deployment, static website using html,css, react
