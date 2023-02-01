@@ -18,6 +18,11 @@ A one page layout website divided into sections.
 - CSS
 - Bootstrap
 - Email.js
+ 
+ # Deployment  
+
+ - Cloudflare
+ Link: https://www.cloudflare.com
 
 
 
