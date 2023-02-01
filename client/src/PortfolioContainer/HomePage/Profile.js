@@ -59,7 +59,7 @@ return (
                        /> */}
                     </h1>
                     <span className='role-line-profile'>
-                    Full layout of front and back end applications
+                    Overview of my front-end and back-end applications.
                     </span> 
                 </span>
             </div> 
