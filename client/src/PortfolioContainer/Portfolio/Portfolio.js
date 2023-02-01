@@ -3,6 +3,7 @@ import './Portfolio.css';
 import pic1 from '../../assets/Home/KrewesicScreenShot.jpg'
 import pic2 from '../../assets/Home/BikeAroundScreenshot.jpg'
 import pic3 from '../../assets/Home/PokerAppScreenshot.jpg'
+import pic4 from '../../assets/Home/MortgageScreenshot.png'
 
 
 
@@ -27,6 +28,13 @@ const portfolioData = [
      title: 'Big Easy Casino',
      github: 'https://github.com/tremitch504/poker-app.git',
      demo: 'https://github.com/tremitch504/poker-app.git',
+    },
+    {
+     id: 4,
+     image: pic4,
+     title: 'Mortgage Calculator',
+     github: 'https://github.com/tremitch504/Mortgage-Calculator',
+     demo: 'https://github.com/tremitch504/Mortgage-Calculator',
     },
 ]
 
