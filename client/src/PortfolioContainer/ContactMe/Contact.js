@@ -37,8 +37,8 @@ const ContactMe = () => {
             <article className="contact-option">
             <i class="bi bi-twitter"></i>
                 <h4>Twitter</h4>
-                <h5 className="email-header">@Bruce77001275</h5>
-                <a href="https://twitter.com/Bruce77001275" target='_blank' rel="noreferrer">Send a message</a>
+                <h5 className="email-header">@trevonjmitch</h5>
+                <a href="https://twitter.com/trevonjmitch" target='_blank' rel="noreferrer">Send a message</a>
             </article>
             <article className="contact-option">
             <i class="bi bi-linkedin"></i> 
