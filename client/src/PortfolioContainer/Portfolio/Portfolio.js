@@ -4,10 +4,18 @@ import pic1 from '../../assets/Home/KrewesicScreenShot.jpg'
 import pic2 from '../../assets/Home/BikeAroundScreenshot.jpg'
 import pic3 from '../../assets/Home/PokerAppScreenshot.jpg'
 import pic4 from '../../assets/Home/MortgageScreenshot.png'
+import pic5 from '../../assets/Home/VueTodoListApp.png'
 
 
 
 const portfolioData = [
+    {
+        id: 5,
+     image: pic5,
+     title: 'Vue Todo List App',
+     github: 'https://github.com/tremitch504/Vue-Todo-List-App',
+     demo: 'https://vue-todo-list-app.pages.dev',
+    },
     {
      id: 1,
      image: pic1,
