@@ -44,7 +44,7 @@ const portfolioData = [
      github: 'https://github.com/tremitch504/Mortgage-Calculator',
      demo: 'https://github.com/tremitch504/Mortgage-Calculator',
     },
-]
+] 
 
 
 const Portfolio = () => {
