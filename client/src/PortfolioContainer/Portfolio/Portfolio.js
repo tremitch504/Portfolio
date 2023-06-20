@@ -5,6 +5,7 @@ import pic2 from '../../assets/Home/BikeAroundScreenshot.jpg'
 import pic3 from '../../assets/Home/PokerAppScreenshot.jpg'
 import pic4 from '../../assets/Home/MortgageScreenshot.png'
 import pic5 from '../../assets/Home/VueTodoListApp.png'
+import pic6 from '../../assets/Home/TicTacToe.png'
 
 
 
@@ -44,6 +45,15 @@ const portfolioData = [
      github: 'https://github.com/tremitch504/Mortgage-Calculator',
      demo: 'https://github.com/tremitch504/Mortgage-Calculator',
     },
+    
+    {
+     id: 6,
+     image: pic6,
+     title: 'Tic-Tac-Toe',
+     github: 'https://github.com/tremitch504/Tic-Tac-Toe-Game',
+     demo: 'https://github.com/tremitch504/Tic-Tac-Toe-Game',
+    },
+
 ] 
 
 
