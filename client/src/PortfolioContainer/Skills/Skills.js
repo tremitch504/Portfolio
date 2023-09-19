@@ -10,7 +10,7 @@ const Skills = () => {
            <h2>Experience</h2>
 
            <div className="list-skills-container">
-               <div className="sklls-frontend">
+               <div className="skills-frontend">
                 <h3>Frontend</h3>
                 <div className="skills">
                     <article className="details">

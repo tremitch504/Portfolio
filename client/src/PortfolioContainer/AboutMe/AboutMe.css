@@ -27,15 +27,6 @@
     width: 85%;
 }
 
-/* .image-aboutme img{
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
-    height: 50%;
-    width: 50%;
-} */
-
 .image-aboutme:hover{
     transform: rotate(0);
 }
@@ -47,7 +38,6 @@
 }
 
 .aboutme-card{
-    /* background: var(--color-bg-variant); */
     color: var(--white);
     background-color: #CC3636;
     border: 1px solid transparent;
@@ -61,7 +51,6 @@
     color: white;
     background-color: #CFD2CF;
     margin: 0 0 0 28px;
-    /* border-color: var(--color-primary-variant); */
     cursor: default;
 }
 
@@ -71,7 +60,6 @@
 
 .aboutme-card small {
   font-size: 0.7rem;
-  /* color: var(--white);; */
 }
 
 .aboutme-cards-container p {
@@ -91,10 +79,6 @@
   h1, h2, h3, h4, h5 {
     font-weight: 500;
   }
-  
-  /* .aboutme-container{
-    margin-top: 8rem;
-  } */
   
   .aboutme-container h2 {
     text-align: center;
@@ -118,15 +102,6 @@
     color: var(--color-white);
   }
   
-  /* .btn {
-    width: max-content;
-    display: inline-block;
-    color: var(--color-primary);
-    padding: 0.75rem 1.2rem;
-    cursor: pointer;
-    border: 1px solid var(--color-primary);
-    transition: var(--transition);
-  } */
   img {
     display: block;
     width: 100%;
@@ -136,7 +111,6 @@
   .btn-primary {
     background-color: #1f2235;
     border:2px solid linen;
-    /* color: var(--color-bg); */
   }
 
   .btn-primary:hover{
@@ -144,3 +118,19 @@
     border: 2px solid #ff5823;
   }
   
+
+
+
+  /* Mobile */
+@media only screen and (max-width: 640px) {
+  .parent-aboutme 
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutme-cards{
+  grid-template-columns: repeat(2, 1fr);
+  }
+
+}

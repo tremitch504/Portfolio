@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'; //Linked our Footer css style file to our component
+import './Footer.css'; 
 
 //If there is a propblem with the image, lets add an alt to img tag
 const FooterImage = () => {

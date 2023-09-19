@@ -67,3 +67,28 @@ h1, h2, h3, h4, h5 {
     text-align: center;
     color: var(--white);
   }
+
+
+
+   /* Mobile */
+@media only screen and (max-width: 640px) {
+    .skills-container {
+        justify-items: center;
+    }
+  
+    .list-skills-container{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+
+    }
+
+
+    /* The padding in the original setting was over writting the spacing for this element. */
+    .list-skills-container > div {
+        padding: 2.4rem 0rem;
+    }
+
+
+
+}

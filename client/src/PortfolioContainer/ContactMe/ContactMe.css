@@ -1,14 +1,10 @@
+
 .contact {
     display: grid;
     margin-top: 8rem;
 }
 
 .contact-container {
-    /* width: var(--container-width-lg);
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem; */
     width: 58%;
     margin: 0 auto;
     display: grid;
@@ -23,18 +19,17 @@
 }
 
 .contact-option {
-width: 120%;
 background: #CC3636;;
 padding: 1.2em;
 border-radius: 1.2rem;
 text-align: center;
 border: 1px solid transparent;
+word-wrap: break-word;
 transition: var(--transition);
 }
 
 .contact-option:hover {
     background: #CFD2CF;
-    /* border-color: ; */
 }
 
 .contact-option a {
@@ -45,9 +40,6 @@ transition: var(--transition);
     text-align: center;
     color: var(--white);
 }
-/* .email-header {
-   
-} */
 
 /****form area*****/
 
@@ -57,6 +49,9 @@ form {
     gap: 1.2rem;
 }
 
+.email-header {
+    font-size: 15px;
+}
 input, textarea {
     width: 100%;
     padding: 1.5rem;
@@ -70,3 +65,25 @@ input, textarea {
 input::placeholder, textarea::placeholder {
     color: white;
 }
+
+
+
+  /* Mobile */
+  @media only screen and (max-width: 640px) {
+    .contact {
+       justify-items: center;
+    }
+
+    .contact-container  {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+       margin-top: 1.55rem;
+    }
+
+    .email-header {
+        font-size: 15px;
+    }
+  }
