@@ -16,6 +16,7 @@ const portfolioData = [
      title: 'Vue Todo List App',
      github: 'https://github.com/tremitch504/Vue-Todo-List-App',
      demo: 'https://vue-todo-list-app.pages.dev',
+     demoStatus: 'yes',
     },
     {
      id: 1,
@@ -23,6 +24,7 @@ const portfolioData = [
      title: 'Krewsic',
      github: 'https://github.com/The-Headliners/Krewesic.git',
      demo: 'https://github.com/The-Headliners/Krewesic.git',
+     demoStatus: 'no',
     },
     {
      id: 2,
@@ -30,6 +32,7 @@ const portfolioData = [
      title: 'Bike Around and Find Out',
      github: 'https://github.com/AlTreJoe/OscarScrumLords',
      demo: 'https://github.com/AlTreJoe/OscarScrumLords',
+     demoStatus: 'no',
     },
     {
      id: 3,
@@ -37,6 +40,7 @@ const portfolioData = [
      title: 'Big Easy Casino',
      github: 'https://github.com/tremitch504/poker-app.git',
      demo: 'https://github.com/tremitch504/poker-app.git',
+     demoStatus: 'no',
     },
     {
      id: 4,
@@ -44,6 +48,7 @@ const portfolioData = [
      title: 'Mortgage Calculator',
      github: 'https://github.com/tremitch504/Mortgage-Calculator',
      demo: 'https://github.com/tremitch504/Mortgage-Calculator',
+     demoStatus: 'no',
     },
     
     {
@@ -52,6 +57,7 @@ const portfolioData = [
      title: 'Tic-Tac-Toe',
      github: 'https://github.com/tremitch504/Tic-Tac-Toe-Game',
      demo: 'https://github.com/tremitch504/Tic-Tac-Toe-Game',
+     demoStatus: 'no',
     },
 
 ] 
@@ -68,7 +74,7 @@ const Portfolio = () => {
 <div className="portfolio-container">
   
 {
-    portfolioData.map(({id, image, title, github, demo}) =>{
+    portfolioData.map(({id, image, title, github, demo, demoStatus}) =>{
         return (
             <article key={id}className="portfolio-item">
     <div className="portfolio-image">
@@ -78,7 +84,9 @@ const Portfolio = () => {
     </div>
     <h3>{title}</h3>
     <a href={github} target="_blank" rel="noreferrer"><button className="btn-port">Github </button></a>
-    <a href={demo}  target="_blank" rel="noreferrer"> <button className="btn-port">Live Demo </button> </a>
+
+   { demoStatus === "yes" && <a href={demo}  target="_blank" rel="noreferrer"> <button className="btn-port">Live Demo </button> </a>}
+  
 </article>
 
         )
