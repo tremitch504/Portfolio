@@ -6,10 +6,19 @@ import pic3 from '../../assets/Home/PokerAppScreenshot.jpg'
 import pic4 from '../../assets/Home/MortgageScreenshot.png'
 import pic5 from '../../assets/Home/VueTodoListApp.png'
 import pic6 from '../../assets/Home/TicTacToe.png'
+import pic7 from '../../assets/Home/WeatherAppPreview.png'
 
 
 
 const portfolioData = [
+    {
+        id: 7,
+     image: pic7,
+     title: 'The Weather App',
+     github: 'https://github.com/tremitch504/The-Weather-App',
+     demo: 'https://theweatherapp-trevonwebsites.netlify.app/',
+     demoStatus: 'yes',
+    },
     {
         id: 5,
      image: pic5,
@@ -85,7 +94,7 @@ const Portfolio = () => {
     <h3>{title}</h3>
     <a href={github} target="_blank" rel="noreferrer"><button className="btn-port">Github </button></a>
 
-   { demoStatus === "yes" && <a href={demo}  target="_blank" rel="noreferrer"> <button className="btn-port">Live Demo </button> </a>}
+   { demoStatus === "yes" && <a href={demo}  target="_blank" rel="noreferrer"> <button className="btn-port">Website Live  </button> </a>}
   
 </article>
 
