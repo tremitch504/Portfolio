@@ -2,7 +2,7 @@ import React from 'react';
 //import Typical from 'react-typical';
 import "./Profile.css";
 const Profile = () => {
-   
+
 //info = details
 return (
     <div className='container-profile' id='profile'>
@@ -65,12 +65,12 @@ return (
             </div> 
                 <div className='options'>
                     
-                   <button className='btn primary-btn'>
+                  <a href='mailto:trevonmitch504@gmail.com'> <button className='btn primary-btn' >
                     {""}
                     Hire Me{ " "}
-                   </button>
+                   </button> </a>
 
-                   <a href='latest 2 Trevon Resume.pdf' download='Trevon Mitchell Resume.pdf'> 
+                   <a href="Tre'von's Resume-Latest2.pdf" download='Trevon Mitchell Resume.pdf'> 
                    <button className='btn highlighted-btn'>
                     Get Resume
                    </button> 

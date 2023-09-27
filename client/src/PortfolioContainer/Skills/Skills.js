@@ -13,6 +13,40 @@ const Skills = () => {
                <div className="skills-frontend">
                 <h3>Frontend</h3>
                 <div className="skills">
+
+                <article className="details">
+                    <i class="bi bi-check"></i>
+                    <div>
+                    <h4>Vue.js</h4>
+                    <small className="details-text">Experienced</small>
+                    </div>
+                    </article>
+
+                <article className="details">
+                    <i class="bi bi-check"></i>
+                    <div>
+                    <h4>React.js</h4>
+                    <small className="details-text">Experienced</small>
+                    </div>
+                    </article>
+
+
+                    <article className="details">
+                    <i class="bi bi-check"></i>
+                    <div>
+                    <h4>TailwindCSS</h4>
+                    <small className="details-text">Experienced</small>
+                    </div>
+                    </article>
+
+                    <article className="details">
+                    <i class="bi bi-check"></i>
+                    <div>
+                    <h4>Bootstrap</h4>
+                    <small className="details-text">Experienced</small>
+                    </div>
+                    </article>
+
                     <article className="details">
                     <i class="bi bi-check"></i>
                     <div>
@@ -20,6 +54,7 @@ const Skills = () => {
                     <small className="details-text">Experienced</small>
                     </div>
                     </article>
+
                     <article className="details">
                     <i class="bi bi-check"></i>
                     <div>
@@ -27,6 +62,7 @@ const Skills = () => {
                     <small className="details-text">Experienced</small>
                     </div>
                     </article>
+
                     <article className="details">
                     <i class="bi bi-check"></i>
                     <div>
@@ -34,13 +70,9 @@ const Skills = () => {
                     <small className="details-text">Experienced</small>
                     </div>
                     </article>
-                    <article className="details">
-                    <i class="bi bi-check"></i>
-                    <div>
-                    <h4>React.Js</h4>
-                    <small className="details-text">Experienced</small>
-                    </div>
-                    </article>
+
+                   
+
                     <article className="details">
                     <i class="bi bi-check"></i>
                     <div>
@@ -48,19 +80,22 @@ const Skills = () => {
                     <small className="details-text">Experienced</small>
                     </div>
                     </article>
+
                 </div>
                </div>
 
                <div className="sklls-backend">
                <h3>Backend</h3>
                 <div className="skills">
+               
                 <article className="details">
                     <i class="bi bi-check"></i>
                     <div>
-                    <h4>Node JS</h4>
+                    <h4>Java</h4>
                     <small className="details-text">Experienced</small>
                     </div>
                     </article>
+
                     <article className="details">
                     <i class="bi bi-check"></i>
                     <div>
@@ -68,6 +103,7 @@ const Skills = () => {
                     <small className="details-text">Experienced</small>
                     </div>
                     </article>
+
                     <article className="details">
                     <i class="bi bi-check"></i>
                     <div>
@@ -75,17 +111,27 @@ const Skills = () => {
                     <small className="details-text">Experienced</small>
                     </div>
                     </article>
-                    <article className="details">
-                    <i class="bi bi-check"></i>
-                    <div>
-                    <h4>Java</h4>
-                    <small className="details-text">Experienced</small>
-                    </div>
-                    </article>
+                   
                     <article className="details">
                     <i class="bi bi-check"></i>
                     <div>
                     <h4>PostgreSQL</h4>
+                    <small className="details-text">Experienced</small>
+                    </div>
+                    </article>
+
+                    <article className="details">
+                    <i class="bi bi-check"></i>
+                    <div>
+                    <h4>GraphQL</h4>
+                    <small className="details-text">Experienced</small>
+                    </div>
+                    </article>
+
+                    <article className="details">
+                    <i class="bi bi-check"></i>
+                    <div>
+                    <h4>Node JS</h4>
                     <small className="details-text">Experienced</small>
                     </div>
                     </article>
